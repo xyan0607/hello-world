@@ -1,1 +1,2 @@
 echo "hello world"
+exit 1
