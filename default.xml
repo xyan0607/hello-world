@@ -1,0 +1,12 @@
+<?xml version="2.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="team"
+          fetch="https://team.git.corp.google.com/"
+          review="https://team-review.git.corp.google.com/" />
+  <default revision="master"
+           remote="team" />
+  <project path="codelab/xyan" name="kokoro/kokoro-codelab-xyan">
+    <copyfile src="Hello.java" dest="hello-world.java" />
+  </project>
+  <project path="codelab/tiffanypan" name="kokoro/kokoro-codelab-tiffanypan" />
+</manifest>
